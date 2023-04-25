@@ -1,0 +1,3 @@
+
+
+#resp = request.delete(myurl)
