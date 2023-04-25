@@ -12,6 +12,7 @@ def ping():
         "server_time": datetime.now().strftime("%F %H:%M:%S")
     }
 
+
 @app.get("/tasks")
 def get_all_tasks():
     tasks = task.scan()
